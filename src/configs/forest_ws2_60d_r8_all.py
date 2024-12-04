@@ -1,5 +1,5 @@
 
-from configs.default_forest_config import basic_cv_cfg as cfg
+from cvpr-multiearth-deforestation-segmentation.src.configs.default_forest_config import basic_cv_cfg as cfg
 import os
 import albumentations as A
 
@@ -54,14 +54,14 @@ cfg.BAND_LIMITS = {
         "B2": (1000, 10000),
         "B3": (1000, 10000),
         "B4": (1000, 10000),
-        "B5": (1000, 10000),
-        "B6": (1000, 10000),
-        "B7": (1000, 10000),
-        "B8": (1000, 10000),
-        "B8A": (1000, 10000),
-        "B9": (1000, 10000),
-        "B11": (1000, 10000),
-        "B12": (1000, 10000),
+        # "B5": (1000, 10000),
+        # "B6": (1000, 10000),
+        # "B7": (1000, 10000),
+        # "B8": (1000, 10000),
+        # "B8A": (1000, 10000),
+        # "B9": (1000, 10000),
+        # "B11": (1000, 10000),
+        # "B12": (1000, 10000),
         "QA60": (300, 1000),
     },
 }
