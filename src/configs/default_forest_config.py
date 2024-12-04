@@ -1,4 +1,4 @@
-from default_config import basic_cfg
+from cvpr-multiearth-deforestation-segmentation.src.configs.default_config import basic_cfg
 
 cfg = basic_cfg
 
